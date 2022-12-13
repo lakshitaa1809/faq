@@ -1,0 +1,147 @@
+:root{
+ --clr-desaturated blue: hsl(238, 29%, 16%);
+  --clr-Softred: hsl(14, 88%, 65%);
+  --clr-Softviolet: hsl(273, 75%, 66%);
+  --clr-Softblue: hsl(240, 73%, 65%);
+  --clr-grayishblue: hsl(237, 12%, 33%);
+  --clr-Darkgrayishblue: hsl(240, 6%, 50%);
+  --clr-Lightgrayishblue: hsl(240, 5%, 91%);
+}
+.container{
+  width:1200px;
+}
+body{
+  font-size: 12px;
+  background-color: var(--clr-Softviolet);
+  font-family: 'Kumbh Sans', sans-serif;
+}
+.background{
+  width:900px;
+  height:500px;
+  background-color: white;
+  margin:100px 150px;
+  border-radius: 25px;
+  display:flex;
+  flex-direction: row;
+}
+.desktop{
+  width:550px;
+  height:650px;
+  position:absolute;
+  top:50px;
+right:650px;
+}
+.woman{
+  position:absolute;
+  bottom:20px;
+  right:652px;
+  width:500px;
+}
+.ques{
+  width:400px;
+  position:absolute;
+  bottom:30px;
+  left:650px;
+font-size: 25px;
+}
+.one{
+  font-size: 15px;
+  padding:15px 5px;
+}
+.one:hover{
+  color:red;
+  cursor:pointer;
+}
+.two{
+  margin-top: 10px;
+  font-size: 15px;
+  padding:15px 5px;
+}
+.two:hover{
+  color:red;
+  cursor:pointer;
+}
+.three{
+  font-size: 15px;
+  padding:15px 5px;
+}
+.three:hover{
+  color:red;
+  cursor:pointer;
+}
+.four{
+  font-size: 15px;
+  padding:15px 5px;
+}
+.four:hover{
+  color:red;
+  cursor:pointer;
+}
+.five{
+  font-size: 15px;
+  padding:15px 5px;
+}
+.five:hover{
+  color:red;
+  cursor:pointer;
+}
+.click1{
+  border:none;
+  background-color: white;
+  margin-left: 10px;
+}
+.click2{
+  border:none;
+  background-color: white;
+  margin-left: 10px;
+}
+.click3{
+  border:none;
+  background-color: white;
+  margin-left: 65px;
+}
+.click4{
+  border:none;
+  background-color: white;
+  margin-left: 65px;
+}
+.click5{
+  border:none;
+  background-color: white;
+  margin-left: 35px;
+}
+.arrow {
+  border: solid red;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 2px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+.arrowup{
+  border: solid red;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 2px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+.arrowdown{
+  border: solid red;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 2px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.display1{
+  padding:3px 0px;
+  font-size: 8px;
+  color:var(--clr-Darkgrayishblue);
+}
